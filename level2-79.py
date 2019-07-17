@@ -1,0 +1,7 @@
+n=int(input())
+lst=input()
+lst=lst.split()
+lst=list(map(int,lst))
+mx=max(lst)
+mn=min(lst)
+print(mx-mn)
