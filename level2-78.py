@@ -8,4 +8,5 @@ lst1=list(map(int,lst1))
 for x in lst1:
   lst.append(x)
 lst.sort()
-print(lst)
+for x in lst:
+  print(x,end=" ")
