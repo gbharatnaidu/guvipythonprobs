@@ -1,12 +1,12 @@
-ax=int(input())
-c=1
-d=[]
+n=int(input())
+count=1
+k=[]
 a=list(map(int,input().split()))
 for i in range(0,len(a)-1):
     if a[i]<a[i+1]:
-        c=c+1
+        count=count+1
     else:
-        d.append(c)
-        c=1
-d.append(c)
-print(max(d))
+        k.append(count)
+        count=1
+k.append(count)
+print(max(k))
